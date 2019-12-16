@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:ftask/UI/Intray/intrayPage.dart';
 import 'package:ftask/models/global.dart';
 
 void main() => runApp(MyApp());
@@ -39,9 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
             body: Stack(children: <Widget>[
               TabBarView(
                 children: [
-                  new Container(
-                    color: darkGreyColor,
-                  ),
+                  IntrayPage(),
                   new Container(
                     color: Colors.orange,
                   ),
@@ -52,11 +51,11 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Container(
                 padding: EdgeInsets.only(left: 50),
-                height: 162,
+                height: 160,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(52),
-                    bottomRight: Radius.circular(52),
+                    bottomLeft: Radius.circular(50),
+                    bottomRight: Radius.circular(50),
                   ),
                   color: Colors.white,
                 ),
@@ -74,10 +73,14 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                 height: 80,
                 width: 80,
-                margin: EdgeInsets.only(top: 130,left: MediaQuery.of(context).size.width*0.5-40.0),
+                margin: EdgeInsets.only(
+                    top: 130,
+                    left: MediaQuery.of(context).size.width * 0.5 - 40.0),
                 child: FloatingActionButton(
-
-                  child:  Icon(Icons.add, size: 70.0,),
+                  child: Icon(
+                    Icons.add,
+                    size: 70.0,
+                  ),
                   backgroundColor: buttonRedColor,
                   onPressed: () {},
                 ),
