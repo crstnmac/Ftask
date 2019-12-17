@@ -1,4 +1,4 @@
-# ftask
+# FTask
 
 <img src="./lib/FTask.png" alt="FTask" width="200"/>
 
