@@ -2,7 +2,7 @@
 
 
 
-![](lib/FTask.png =250x) 
+![](./lib/FTask.png =250x) 
 A new Flutter application for managing tasks.
 ## Getting Started
 
