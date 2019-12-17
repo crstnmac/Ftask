@@ -3,7 +3,7 @@
 
 <img src="lib/FTask.png"
      alt="FTask"
-     style="float: left; margin-right: 10px; width:50px; height: 50px;" />
+     style="float: left; margin-right: 10px; width:50px;" />
 
 A new Flutter application for managing tasks.
 ## Getting Started
