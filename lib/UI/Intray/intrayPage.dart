@@ -51,16 +51,6 @@ class _IntrayPageState extends State<IntrayPage> {
     );
   }
 
-//  void _onReorder(int oldIndex, int newIndex) {
-//    setState(() {
-//      if (newIndex > oldIndex) {
-//        newIndex -= 1;
-//      }
-//      final Task item = taskList.removeAt(oldIndex);
-//      taskList.insert(newIndex, item);
-//    });
-//  }
-
   List<Task> getList() {
     for (int i = 0; i < 10; i++) {
       taskList.add(Task("My first todo " + i.toString(),false,i.toString()));
