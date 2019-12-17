@@ -1,7 +1,7 @@
 # ftask
 
+![](lib/FTask.png)
 A new Flutter application for managing tasks.
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
