@@ -1,6 +1,10 @@
 # ftask
 
-![](lib/FTask.png)
+
+<img src="lib/FTask.png"
+     alt="FTask"
+     style="float: left; margin-right: 10px; width:100px; height: 100px;" />
+
 A new Flutter application for managing tasks.
 ## Getting Started
 
